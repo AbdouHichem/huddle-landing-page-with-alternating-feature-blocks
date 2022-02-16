@@ -250,3 +250,49 @@ footer {
     }
   }
 }
+
+@media (min-width: 1180px) {
+  header,
+  main,
+  footer {
+    max-width: 100%;
+    width: 100%;
+  }
+  html {
+    font-size: 24px;
+  }
+  header {
+    .background-image {
+
+      background-image: url(../images/bg-hero-desktop.svg);
+
+    }
+    .navbar {
+      width: 90%;
+      img {
+        width: 20%;
+      }
+      button {
+        font-size: 1rem;
+      }
+    }
+    .details {
+      text-align: start;
+      flex-direction: row;
+      width: 90%;
+      margin: 1rem 1rem;
+      padding-bottom: 3rem;
+
+      .Title {
+        
+
+        p {
+          font-size: 1rem;
+        }
+      }
+      button{
+        font-size: 1rem;
+      }
+    }
+  }
+}
