@@ -15,4 +15,279 @@
 .attribution a {
   color: #3e52a3;
 }
+
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 200px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main,
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  min-width: 375px;
+  max-width: 480px;
+}
+
+header {
+  background-color: #ebfbff;
+  position: relative;
+  margin: 0em 1em;
+}
+
+header .background-image {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header .navbar {
+  z-index: 3;
+  margin: 2em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar img {
+  width: 40%;
+  height: 40%;
+}
+
+header .navbar button {
+  padding: 0.5em 3em;
+  border-radius: 5em;
+  border: none;
+  background-color: white;
+}
+
+header .navbar button:hover {
+  color: #808d99;
+  cursor: pointer;
+}
+
+header .details {
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 1em 1em;
+  padding-bottom: 3em;
+}
+
+header .details img {
+  width: 90%;
+}
+
+header .details .Title h1 {
+  color: #00252e;
+  font-size: 1.8rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+header .details .Title p {
+  color: #00252e;
+  margin-bottom: 1em;
+}
+
+header .details .Title button {
+  color: white;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 5rem;
+  padding: 0.8rem 3.5rem;
+  margin-bottom: 3rem;
+}
+
+header .details .Title button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.SecondSection {
+  padding: 5rem 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.SecondSection .Grow2gether,
+.SecondSection .FlowingConversations,
+.SecondSection .YourUsers {
+  width: 100%;
+  padding: 3rem 1rem;
+  margin: 2rem 0rem;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.SecondSection .text h2 {
+  color: #00252e;
+  margin: 1.5rem 0rem;
+}
+
+.SecondSection .text p {
+  color: #808d99;
+  margin: 1.5rem 0rem;
+}
+
+.SecondSection img {
+  width: 100%;
+}
+
+footer {
+  background-color: #00252e;
+  position: relative;
+  padding: 10rem 2rem 3rem 2  rem;
+  color: white;
+  width: 90%;
+  min-width: 375px;
+  max-width: 480px;
+}
+
+footer .FloatSection {
+  background-color: white;
+  position: absolute;
+  top: -80px;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  width: 90%;
+}
+
+footer .FloatSection h2 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #00252e;
+}
+
+footer .FloatSection button {
+  color: white;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 5rem;
+  padding: 0.8rem 3.5rem;
+}
+
+footer .FloatSection button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer .socials svg {
+  margin-bottom: 2rem;
+}
+
+footer .socials ul img {
+  width: 20px;
+  height: auto;
+  margin-top: 0.3rem;
+}
+
+footer .socials ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 1rem 0rem;
+}
+
+footer .socials ul li div {
+  width: 10px;
+}
+
+footer .socials ul li p {
+  margin-left: 2.5rem;
+}
+
+footer .links li {
+  font-size: 1.2rem;
+  padding: 0.4rem 0rem;
+}
+
+footer .links li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .social-icons {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer .social-icons p {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+footer .social-icons span:hover {
+  color: #ff52bf;
+}
 /*# sourceMappingURL=style.css.map */
