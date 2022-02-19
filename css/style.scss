@@ -206,7 +206,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   header,
   main,
   footer {
@@ -218,9 +218,7 @@ footer {
   }
   header {
     .background-image {
-
       background-image: url(../images/bg-hero-desktop.svg);
-
     }
     .navbar {
       width: 90%;
@@ -249,6 +247,90 @@ footer {
       }
     }
   }
+  .SecondSection {
+    text-align: start;
+    .Grow2gether,
+    .FlowingConversations,
+    .YourUsers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 80%;
+    }
+    .text {
+      flex: 1;
+      margin: 0rem 1rem;
+      width: 100%;
+    }
+    img {
+      margin: 0rem 3rem;
+      width: 40%;
+      order: 2;
+    }
+  }
+  .FlowingConversations {
+    .text {
+      order: 2;
+    }
+  }
+  footer {
+    position: relative;
+    padding: 0rem;
+    margin-top: 6rem;
+    padding: 10rem 1rem 3rem 3rem;
+    .FloatSection {
+      top: -100px;
+      padding: 2rem 2rem;
+      width: 600px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .socials {
+      svg {
+        margin-bottom: 2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap : 3rem;
+        ul {
+          li {
+            p {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .links{
+          display: flex;  
+          gap: 3rem;
+          li{
+            padding:0rem;
+            font-size: .85rem;
+          }
+
+        }
+        .social-icons{
+          margin-top:1rem;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: 8rem;
+          p{
+            
+            font-size: .67rem;
+            
+          }
+        }
+           
+      }
+    }
+  }
 }
 
 @media (min-width: 1180px) {
@@ -259,13 +341,11 @@ footer {
     width: 100%;
   }
   html {
-    font-size: 24px;
+    font-size: 20px;
   }
   header {
     .background-image {
-
       background-image: url(../images/bg-hero-desktop.svg);
-
     }
     .navbar {
       width: 90%;
@@ -284,13 +364,13 @@ footer {
       padding-bottom: 3rem;
 
       .Title {
-        
+        width: 80%;
 
         p {
           font-size: 1rem;
         }
       }
-      button{
+      button {
         font-size: 1rem;
       }
     }
